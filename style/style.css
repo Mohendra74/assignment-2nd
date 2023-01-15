@@ -1,0 +1,268 @@
+*{
+    font-family: "work sans";
+}
+
+/* header style */
+
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding-top: 10px;
+}
+
+
+ul li {
+    list-style: none;
+    margin: 0px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #424242;
+
+}
+nav ul {
+    align-items: center;
+    display: flex;
+}
+
+ .banner-section {
+    text-align: center;
+    padding: 30px 100px;
+    font-weight: 700px;
+} 
+
+.banner-heading {
+    color: #131313;
+    padding: 0px 100px;
+}
+.banner-text {
+    padding: 0px 100px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #727272;
+}
+.btn-primary {
+    width: 140px;
+    height: 50px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.banner{
+    margin-top: 20px;
+}
+.banner img {
+    width: 100%;
+}
+
+/* Style team */
+
+.team-section {
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.team-pic {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+    
+}
+.team-list img {
+    width: 170px;
+    height: 170px;
+}
+
+.team-title {
+    padding: 50px 0px 50px 40px;
+}
+.team-title h2 {
+    font-weight: 200;
+    font-size: 30px;
+    color:#727272;
+}
+.pri-text-1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 30px;
+}
+.pri-text-2 {
+    color:#FF900E;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team-title p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* Features Style */
+
+.features-section {
+    display: flex;
+    padding: 0px 90px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.features-title {
+   width: 80%;
+   height: 800px;
+   margin-right: 30px;
+}
+.features-title h2 {
+   font-weight: 700;
+   color: #131313;
+   font-size: 25px;
+ }
+ .features-title p {
+   font-weight: 400;
+   color: #727272;
+   font-size: 15px;
+ }
+.features-subtitle h4 {
+    font-weight: 600;
+    color: #131313;
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+.features-subtitle p {
+   font-weight: 400;
+   color: #727272;
+   font-size: 15px;
+   padding-left: 10px;
+}
+.features-subtitle {
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(2, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-bottom: 15px;
+    height: 80px;
+}
+
+ .architec-img img {
+    width: 100%;
+    margin-left: 20px;
+ }
+
+ .btn-primary1 {
+    width: 150px;
+    height: 80px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+ }
+ .btn-primary1 .primary2 {
+    font-size: 14px;
+    font-weight: 200;
+ }
+
+ /* fasts style */
+
+ .facts-section {
+    padding: 30px 100px;
+ }
+
+ .facts-title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #131313;
+ }
+.facts-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.facts-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px;
+}
+
+.facts-icon img{
+    padding-top: 8px;
+    width: 30px;
+    height: 30px;
+}
+.facts-icon {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 4px;
+    width: 120px;
+    height: 120px;
+}
+.facts-icon h3 {
+    font-size: 30px;
+    margin: -2px;
+    color: #424242;
+}
+.facts-icon p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+}  
+
+/* sponspors style */
+
+.sponspors-section {
+    padding: 30px 100px;
+    text-align: center;
+}
+.sponspors-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #131313;
+}
+.sponspors-title p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+.sponspors-companys {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.sponspors img{
+    width: 110px;
+    height: 40px;
+}
+
+/* Footer section */
+
+.footer-section {
+    padding: 30px 100px;
+    text-align: center;
+}
+.footer {
+    background-color: #FFF4E7;
+}
+.footer p {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.hide {
+    display: none;
+}
+
