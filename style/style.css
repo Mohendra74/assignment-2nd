@@ -75,9 +75,9 @@ nav ul {
 
 .team-pic {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap:10px;
-    
+    align-content: center;
 }
 .team-list img {
     width: 170px;
@@ -262,7 +262,4 @@ nav ul {
     color: #424242;
 }
 
-.hide {
-    display: none;
-}
 

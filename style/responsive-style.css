@@ -17,4 +17,204 @@
     .banner-section {
         padding: 0px;
     }
+    /* style---team */
+    .team-section {
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    .team-pic {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+    }
+    .team-title {
+        text-align: center;
+        padding: 0px;
+    }
+    /* Features styles */
+    .features-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .features-title {
+        text-align: center;
+        height: 700px;
+        margin-left: 35px;
+    }
+    .features-subtitle p {
+        margin-top: -0px;
+    }
+    .architec-img img {
+        width: 95%;
+    }
+    .btn-primary1 {
+        margin-left: 110px;
+    }
+    /* facts section style */
+    .facts-section {
+        padding: 0px;
+        margin: 0px;
+        width: 100%; 
+     }
+     .facts-title {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 95%;
+      } 
+     .facts-box {
+        flex-direction: column;
+         margin-left: 100px;
+     }
+     .facts-icon {
+        margin-top: 10px;
+     } 
+
+     /* sponspor style */
+
+     .sponspors-section {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .sponspors-title {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 95%;
+      } 
+      .sponspors-title h2{
+        font-size: 45px;
+      }
+    .sponspors-title p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .sponspors-companys {
+        flex-direction: column;
+    }
+    .sponspors img{
+        width: 160px;
+        height: 70px;
+    }
+    .sponspors {
+        margin-top: 20px;
+    }
+    /* footer-section */
+    .footer-section {
+        padding: 0px;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .team-section {
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .team-pic {
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        padding: 0px 160px;
+    }
+    .team-list img {
+        width: 230px;
+        height: 230px;
+    }
+    /*-----------features style----------*/
+    .features-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .features-title {
+        text-align: center;
+        height: 700px;
+        margin-left: 75px;
+    }
+    .architec-img img {
+        width: 95%;
+    }
+    .btn-primary1 {
+        margin-left: 310px;
+    }
+    /* facts styles */
+    .facts-section {
+        padding: 0px;
+        margin: 0px;
+     }
+     .facts-title {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 95%;
+      } 
+      .facts-title h1 {
+       font-size: 70px;
+      }
+      .facts-title p {
+        font-size: 30px;
+    }
+     .facts-box {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         margin-left: 115px;
+     }
+     .facts-icon {
+        margin-top: 40px;
+     } 
+     .facts-icon {
+        width: 220px;
+        height: 220px;
+     }
+     .facts-icon img{
+        width: 60px;
+        height: 60px;
+     }
+     .facts-icon h3 {
+        font-size: 50px;
+     }
+     .facts-icon p{
+        font-size: 25px;
+     }
+     /* sponspor style */
+     .sponspors-section {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .sponspors-title {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 95%;
+      } 
+      .sponspors-title h2{
+        font-size: 55px;
+      }
+    .sponspors-title p {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .sponspors-companys {
+        flex-direction: column;
+    }
+    .sponspors img{
+        width: 210px;
+        height: 80px;
+    }
+    .sponspors {
+        margin-top: 30px;
+    }
+    .footer-section {
+        padding: 0px;
+    }
 }
